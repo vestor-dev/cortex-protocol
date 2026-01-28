@@ -172,3 +172,5 @@ fn test_has_no_license_by_default() {
 
     assert!(!client.has_license(&stranger, &1));
 }
+
+// TODO: add negative test for purchasing own asset (should panic)
