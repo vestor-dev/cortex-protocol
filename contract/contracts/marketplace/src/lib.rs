@@ -268,3 +268,6 @@ impl MarketplaceContract {
         env.storage().persistent().get(&license_key)
     }
 }
+
+// Note: max 10_000 assets per contract instance (governance limit)
+const MAX_ASSETS: u64 = 10_000;
