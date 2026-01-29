@@ -276,3 +276,5 @@ impl MicropaymentsContract {
             .unwrap_or(0u64)
     }
 }
+
+// Streams auto-complete when deposit is fully withdrawn or end_time is reached.
