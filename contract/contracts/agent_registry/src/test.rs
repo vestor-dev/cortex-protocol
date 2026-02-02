@@ -95,3 +95,5 @@ fn test_deactivate_agent() {
     let agent = client.get_agent(&1).unwrap();
     assert!(!agent.is_active);
 }
+
+// Coverage: register -> update capabilities -> deactivate lifecycle
