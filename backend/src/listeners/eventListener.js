@@ -88,3 +88,7 @@ function startEventListener(intervalMs = 5_000) {
 }
 
 module.exports = { startEventListener, pollEvents };
+
+// Exported for observability
+let pollErrorCount = 0;
+module.exports.getPollErrorCount = () => pollErrorCount;
