@@ -23,3 +23,8 @@ lto = true
 [profile.release-with-logs]
 inherits = "release"
 debug-assertions = true
+
+# wasm-pack compatible release profile
+[profile.wasm-release]
+inherits = "release"
+opt-level = "s"
