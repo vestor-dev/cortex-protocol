@@ -21,6 +21,8 @@ Powered by Stellar micropayments, agents can autonomously:
 The project explores a future where intelligence itself becomes modular, tradable, and interoperable across autonomous systems.
 
 ## Project Structure
+
+See individual README files in each directory for detailed documentation.
 - `frontend/`: Next.js web interface for the marketplace.
 - `contract/`: Stellar Soroban smart contracts for programmable licensing and micropayments.
 - `backend/`: Supporting services for agent discovery and asset indexing.
