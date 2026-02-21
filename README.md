@@ -36,3 +36,11 @@ See individual README files in each directory for detailed documentation.
 - Agent reputation systems
 - AI-to-AI commerce
 - Autonomous economic coordination
+
+## Roadmap
+
+- [ ] Deploy contracts to Stellar testnet
+- [ ] Connect frontend to backend API
+- [ ] Add Freighter wallet integration
+- [ ] Implement agent-to-agent payment flows
+- [ ] Governance and DAO for marketplace parameters
